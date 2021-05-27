@@ -1,0 +1,22 @@
+.user-row {
+  display: flex;
+  margin-bottom: 10px;
+
+  .user-id {
+    margin-right: 20px;
+  }
+
+  .user-name {
+    margin-right: 20px;
+  }
+
+  .buttons {
+    button {
+      margin-right: 10px;
+    }
+
+    .save {
+      display: none;
+    }
+  }
+}

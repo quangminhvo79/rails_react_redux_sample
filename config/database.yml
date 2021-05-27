@@ -1,0 +1,19 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  collation: utf8_unicode_ci
+  database: react_on_rails_dev
+  host: localhost
+  username: root
+  password:
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+  database: react_on_rails_test
+
+production:
+  <<: *default
+  database: react_on_rails_prod
