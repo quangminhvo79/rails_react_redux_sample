@@ -1,7 +1,6 @@
 import ReactOnRails from 'react-on-rails';
-import UserList from '../bundles/Users/components/UserList';
-import UserRow from '../bundles/Users/components/UserRow';
+import UserMain from '../bundles/Users/components/UserMain';
 
 ReactOnRails.register({
-  UserList, UserRow
+  UserMain
 });
