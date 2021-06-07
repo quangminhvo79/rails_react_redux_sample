@@ -10,7 +10,15 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class="background-gradient full-height">
+    <div class="container-sm">
+      <div class="header mt-5">
+        <h2>React Rails Project</h2>
+      </div>
+      <div class="wrapper">
+        <%= yield %>
+      </div>
+      <div class="header"></div>
+    </div>
   </body>
 </html>

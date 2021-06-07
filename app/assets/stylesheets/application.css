@@ -10,6 +10,21 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require toastr
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.background-gradient {
+  background: rgb(125,117,247);
+  background: linear-gradient(0deg, rgba(125,117,247,1) 0%, rgba(0,154,185,1) 100%);
+}
